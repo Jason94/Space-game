@@ -1,0 +1,38 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x0000000000000000, pid=23289, tid=140702542100224
+#
+# JRE version: OpenJDK Runtime Environment (7.0_91-b02) (build 1.7.0_91-b02)
+# Java VM: OpenJDK 64-Bit Server VM (24.91-b01 mixed mode linux-amd64 compressed oops)
+# Derivative: IcedTea 2.6.3
+# Distribution: Ubuntu 14.04 LTS, package 7u91-2.6.3-0ubuntu0.14.04.1
+# Problematic frame:
+# C  0x0000000000000000
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please include
+# instructions on how to reproduce the bug and visit:
+#   http://icedtea.classpath.org/bugzilla
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread is native thread
+
+siginfo:si_signo=SIGSEGV: si_errno=0, si_code=1 (SEGV_MAPERR), si_addr=0x0000000000000000
+
+Registers:
+RAX=0x00007ff7df3697c0, RBX=0x0000000000000400, RCX=0x00007ff82034d100, RDX=0x00007ff82034d100
+RSP=0x00007ff7dd0a6d18, RBP=0x00007ff820337fa0, RSI=0x0000000000000000, RDI=0x00007ff820337fa0
+R8 =0x000000000016ac00, R9 =0x0000000000000001, R10=0x00007ff820337fc4, R11=0x0000000000000000
+R12=0x00007ff82033c130, R13=0x0000000000012000, R14=0x0000000000001000, R15=0x00007ff7dd0a6ec8
+RIP=0x0000000000000000, EFLAGS=0x0000000000010246, CSGSFS=0x0000000000000033, ERR=0x0000000000000014
+  TRAPNO=0x000000000000000e
+
+Top of Stack: (sp=0x00007ff7dd0a6d18)
+0x00007ff7dd0a6d18:   00007ff7df1324d1 00000000ffffffff
+0x00007ff7dd0a6d28:   00007ff7cc005b60 00007ff7bb800000
+0x00007ff7dd0a6d38:   00007ff8281d3899 0000000000000000
+0x00007ff7dd0a6d48:   

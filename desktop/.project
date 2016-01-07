@@ -1,0 +1,24 @@
+<projectDescription>
+  <name>desktop</name>
+  <buildSpec>
+    <buildCommand>
+      <name>org.scala-ide.sdt.core.scalabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.scala-ide.sdt.core.scalanature</nature>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+  <linkedResources>
+    <link>
+      <name>-home-jason-programming-games_workspace-spacegame-core-assets</name>
+      <type>2</type>
+      <location>/home/jason/programming/games_workspace/spacegame/core/assets</location>
+    </link>
+    <link>
+      <name>-home-jason-programming-games_workspace-spacegame-core-assets</name>
+      <type>2</type>
+      <location>/home/jason/programming/games_workspace/spacegame/core/assets</location>
+    </link>
+  </linkedResources>
+</projectDescription>
